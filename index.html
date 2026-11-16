@@ -1,522 +1,367 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Yassine Ouzar</title>
-
-  <meta name="author" content="Yassine Ouzar">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Yassine Ouzar">
+  <meta name="google-site-verification" content="-5tNT3jSZwH__GTBcEiaVaNqyftcJRHcRo-SXcMyYqs">
+  <title>Yassine Ouzar</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2328;
+      --muted: #59636e;
+      --accent: #0969da;
+      --border: #d8dee4;
+      --card: #f6f8fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --text: #e6edf3;
+        --muted: #9198a1;
+        --accent: #58a6ff;
+        --border: #30363d;
+        --card: #161b22;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 80px; }
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
-<meta name="google-site-verification" content="-5tNT3jSZwH__GTBcEiaVaNqyftcJRHcRo-SXcMyYqs" />
+    /* Header */
+    header { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+    header img.photo {
+      width: 170px; height: 170px; object-fit: cover; border-radius: 50%;
+      border: 1px solid var(--border);
+    }
+    header h1 { margin: 0 0 4px; font-size: 2.1rem; }
+    header .role { margin: 0 0 10px; color: var(--muted); }
+    .links a { margin-right: 14px; white-space: nowrap; }
 
+    h2 { margin: 42px 0 14px; font-size: 1.4rem; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    li strong { color: var(--text); }
+
+    /* Experience */
+    .exp { display: flex; align-items: center; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+    .exp:last-child { border-bottom: none; }
+    .exp img { width: 52px; height: 52px; object-fit: contain; flex: none; }
+    .exp .what { flex: 1; }
+    .exp .what .title { font-weight: 600; }
+    .exp .what .where { color: var(--muted); font-size: .95rem; }
+    .exp .when { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+
+    /* Publications */
+    .pub { display: flex; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .pub:last-child { border-bottom: none; }
+    .pub img { width: 170px; height: auto; max-height: 120px; object-fit: contain; flex: none; border-radius: 6px; background: var(--card); align-self: flex-start; }
+    .pub .ph { width: 170px; flex: none; }
+    .pub .title { font-weight: 600; margin-bottom: 2px; }
+    .pub .authors { color: var(--muted); font-size: .95rem; }
+    .pub .authors b { color: var(--text); }
+    .pub .venue { font-style: italic; font-size: .95rem; margin: 2px 0 4px; }
+    .pub .badge { display: inline-block; font-size: .75rem; padding: 1px 8px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); margin-left: 6px; font-style: normal; }
+
+    .teach li { margin-bottom: 4px; }
+    .teach .yr { color: var(--muted); font-size: .9rem; }
+    .sub { margin: 14px 0 6px; }
+    ul.people li { margin-bottom: 4px; }
+    footer { margin-top: 50px; color: var(--muted); font-size: .85rem; text-align: center; }
+
+    @media (max-width: 640px) {
+      header { flex-direction: column; text-align: center; }
+      .exp { flex-wrap: wrap; }
+      .pub { flex-direction: column; }
+      .pub img { width: 100%; max-height: 180px; }
+      .pub .ph { display: none; }
+    }
+  </style>
 </head>
 <body>
-  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Yassine Ouzar</name>
-              </p>
-		<p> I am an Associate Professor (Maître de Conférences) at <a href="https://www.univ-paris8.fr/" target="_blank"> Université Paris 8 </a>, conducting my research within the <a href="https://www.univ-paris8.fr/UR-Laboratoire-d-Intelligence-Artificielle-et-Semantique-des-Donnees-LIASD" target="_blank"> LIASD Laboratory </a>. My work focuses on developing artificial intelligence methods for multimodal affective computing, remote vital signs measurement, and biometry.
+<div class="wrap">
 
-		<p> Previously, I was a Postdoctoral Researcher at the <a href="https://www.cristal.univ-lille.fr/" target="_blank"> CRIStAL Lab and <a href="https://lilncog.eu/" target="_blank"> Lille Neurosciences & Cognition / Inserm </a>, where I contributed to the <a href="https://initiative-excellence.univ-lille.fr/nos-projets-structurants/mener-une-recherche-dexcellence/cross-disciplinary-projects/cdp-calypso" target="_blank"> CALYPSO project </a>., which aims to identify objective biomarkers for the detection of psychiatric disorders using AI.
+  <!-- ===== Header ===== -->
+  <header>
+    <img class="photo" src="youzar.jpg" alt="Yassine Ouzar">
+    <div>
+      <h1>Yassine Ouzar</h1>
+      <p class="role">Associate Professor (Maître de Conférences) · Université Paris 8 · LIASD Laboratory</p>
+      <div class="links">
+        <a href="mailto:yassine.ouzar@univ-paris8.fr">📧 Email</a>
+        <a href="CV_Yassine_OUZAR.pdf">📄 Resume</a>
+        <a href="https://scholar.google.com/citations?user=6eOtP_4AAAAJ&hl=en">🎓 Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Yassine-Ouzar">ResearchGate</a>
+        <a href="https://www.linkedin.com/in/youzar84/">LinkedIn</a>
+      </div>
+    </div>
+  </header>
 
-		<p> I hold a PhD in Computer Engineering, Automatic Control, and Signal/Image Processing from <a href="https://www.univ-lorraine.fr/" target="_blank"> the University of Lorraine </a> (<a href="https://lcoms.univ-lorraine.fr/" target="_blank"> LCOMS Lab </a>), where I was supervised by Professor Choubeila Maaoui and collaborated with Dr. Frédéric Bousefsaf.
+  <!-- ===== About ===== -->
+  <h2>👋 About Me</h2>
+  <p>
+    I am an Associate Professor (Maître de Conférences) at
+    <a href="https://www.univ-paris8.fr/">Université Paris 8</a>, conducting my research within the
+    <a href="https://www.univ-paris8.fr/UR-Laboratoire-d-Intelligence-Artificielle-et-Semantique-des-Donnees-LIASD">LIASD Laboratory</a>.
+    Previously, I was a Postdoctoral Researcher at the <a href="https://www.cristal.univ-lille.fr/">CRIStAL Lab</a>
+    and <a href="https://lilncog.eu/">Lille Neurosciences &amp; Cognition / Inserm</a>, where I contributed to the
+    <a href="https://initiative-excellence.univ-lille.fr/nos-projets-structurants/mener-une-recherche-dexcellence/cross-disciplinary-projects/cdp-calypso">CALYPSO project</a>,
+    which aims to identify objective biomarkers for the detection of psychiatric disorders using AI.
+    I hold a PhD in Computer Engineering, Automatic Control, and Signal/Image Processing from the
+    <a href="https://www.univ-lorraine.fr/">University of Lorraine</a> (<a href="https://lcoms.univ-lorraine.fr/">LCOMS Lab</a>),
+    supervised by Prof. Choubeila Maaoui and in collaboration with Dr. Frédéric Bousefsaf.
+  </p>
+  <p>
+    I am always open to research collaborations and interdisciplinary projects. If you are interested in
+    collaborating, feel free to <a href="mailto:yassine.ouzar@univ-paris8.fr">get in touch</a>.
+  </p>
 
-		<p> I am deeply passionate about advancing interpretable and multimodal AI to create innovative solutions that improve clinical decision-making and human well-being.
+  <!-- ===== Research directions ===== -->
+  <h2>🔍 Research Directions</h2>
+  <ul>
+    <li><strong>Multimodal Affective Computing:</strong> Recognizing emotions and stress from facial videos by combining facial expressions with physiological signals.</li>
+    <li><strong>Remote Vital Signs Measurement:</strong> Estimating pulse rate and blood pressure from video using imaging photoplethysmography (iPPG) and deep learning.</li>
+    <li><strong>AI for Mental Health &amp; Biomedical Engineering:</strong> Identifying objective, wearable-derived biomarkers of psychiatric disorders such as depression, with interpretable and multimodal AI to support clinical decision-making.</li>
+    <li><strong>Biometry:</strong> Developing AI methods for biometric analysis.</li>
+  </ul>
 
-			<p>
-        I am always open to research collaborations and interdisciplinary projects related to 
-        <strong> affective computing, multimodal learning, biometry and biomedical engineering </strong>. 
-        If you are interested in collaborating or discussing potential joint research, feel free to contact me.
-      </p>
-      <p style="text-align:center; font-size: 18px;">
-        📧 <a href="mailto:yassine.ouzar@univ-paris8.fr">yassine.ouzar@univ-paris8.fr</a>
-      </p>
-			
-		<!--<p> I am a Temporary lecturer and researcher. I received my PhD in computer engineering, automatic control and signal/image processing from <a href="https://lcoms.univ-lorraine.fr/" target="_blank"> LCOMS Lab </a> at the <a href="https://www.univ-lorraine.fr/" target="_blank"> University of Lorraine (UL) </a>, where I was advised by <a href="http://lcoms.univ-lorraine.fr/content/maaoui" target="_blank"> Pr. Choubeila Maaoui</a>, and also work closely with <a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank"> Dr. Frédéric Bousefsaf</a>.-->
-              <!--</p>-->
-              <!--<p>Before coming to LCOMS Lab, I was a Robotic and Machine Learning intern in the <a href="https://www.etis-lab.fr/" target="_blank"> ETIS Lab </a> working with <a href="https://perso-etis.ensea.fr/boucenna/" target="_blank"> Dr. Sofiane Boucenna </a> on compound facial expressions recognition based on an imitation game between a robot and a human partner. I'm interested in computer vision and machine learning for affective computing and biomedical engineering.-->
-              <!--<p>Before joining UL, I obtained my master’s degree in embedded systems and data processing from the <a href="https://www.universite-paris-saclay.fr/" target="_blank"> University of Paris Saclay </a> in 2019.-->
-              <!--</p>-->
-              <!-- <em> <font color="red"><strong>This website is currently under dvelopment!! Please come back later!</strong></font></em><br> -->
-              <p style="text-align:center">
-                <a href="mailto:yassine.ouzar@univ-lorraine.fr">Email</a> &nbsp/&nbsp
-                <a href="CV_Yassine_OUZAR.pdf" target="_blank">Resume</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=6eOtP_4AAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp/&nbsp
-		<a href="https://www.researchgate.net/profile/Yassine-Ouzar" target="_blank">Researchgate</a> &nbsp/&nbsp
-                <!--<a href="https://github.com/yassineouzar/" target="_blank">Github</a> &nbsp/&nbsp-->
-                <a href="https://www.linkedin.com/in/youzar84/" target="_blank">Linkedin</a>
-              </p>
+  <!-- ===== Students ===== -->
+  <h2>🧑‍🎓 Students</h2>
+  <p class="sub"><b>Current students</b></p>
+  <ul class="people">
+    <li>Houari Fellah (PhD, University of Almería)</li>
+    <li>Yazid Moussaoui (PhD, University of Paris 8)</li>
+    <li>Said Si Kaddour (PhD, University of Paris 8)</li>
+  </ul>
+  <p class="sub"><b>Alumni</b></p>
+  <ul class="people">
+    <li>Lynda Lagha (M2, University of Lorraine)</li>
+    <li>Lydia Ouhib (M2, University of Paris-Est Créteil)</li>
+    <li>David Lin (M2, University of Paris Cité)</li>
+    <li>Chenxi Yang (M2, ENSTA Paris / Shanghai Jiao Tong University)</li>
+    <li>Oussama Berhili (M1, University of Paris 8)</li>
+    <li>Souhila Mokaddem (M1, University of Lorraine)</li>
+    <li>Walid Bounoua (M1, University of Lorraine)</li>
+    <li>Yasmine Dahlab (M1, University of Lorraine)</li>
+    <li>Yanis Meziane (M1, University of Lorraine)</li>
+    <li>Radia Bandou (M1, University of Lorraine)</li>
+    <li>Roza Kebir (M1, University of Lorraine)</li>
+    <li>Imad Eddine Laadjal (M1, University of Lorraine)</li>
+    <li>Mohammed Amin Meddad (M1, University of Lorraine)</li>
+  </ul>
 
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="youzar.jpg" target="_blank"><img style="width:100%;max-width:100%" alt="profile photo" src="youzar.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+  <!--
+  ===== Optional sections (uncomment and fill in) =====
 
-        <!-- Work Experience  -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="experience">
-        <tr>
-          <td>
-          <heading>Work Experience</heading>
-          </td>
-        </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" style="padding-left: 20px;">
+  <h2>🏆 Awards</h2>
+  <ul>
+    <li>Award name, year. <a href="#">[Link]</a></li>
+  </ul>
 
-	<tr>
-          <!-- Assistant professor  -->
-          <td width="12.5%" style="text-align: center;"><img src="paris8.jpg" alt="Paris8_logo" width="120" height="80" valign="center"></td>
-          <td> <span style="color:#1772d0; font-weight:bold"> <a href="https://www.univ-paris8.fr/" target="_blank">Paris 8 University </a>
-            </span></td>
-		      
-          <td> Associate professor </td>
-          <td> <em>(Sept 2025- Present)</em></td>
-        </tr>
-		
-	<tr>
-		
-	<tr>
-          <!-- Postdoctoral Researcher  -->
-          <td width="12.5%" style="text-align: center;"><img src="LNC.png" alt="LNC_logo" width="120" height="80" valign="center"></td>
-          <td> <span style="color:#1772d0; font-weight:bold"> <a href="https://lilncog.eu/" target="_blank">Lille Neurosciences & Cognition (LilNCog)</a>
-            </span></td>
-		      
-          <td> Postdoctoral Researcher </td>
-          <td> <em>(Oct 2024- Present)</em></td>
-        </tr>
-		
-	<tr>
-          <!-- Postdoctoral Researcher  -->
-          <td width="12.5%" style="text-align: center;"><img src="cristal.png" alt="cristal_logo" width="120" height="80" valign="center"></td>
-          <td> <span style="color:#1772d0; font-weight:bold"> <a href="https://www.cristal.univ-lille.fr/" target="_blank">CRIStAL Lab</a>
-            </span></td>
-		      
-          <td> Postdoctoral Researcher </td>
-          <td> <em>(Sept 2023- Sept 2024)</em></td>
-        </tr>
+  <h2>📰 News</h2>
+  <ul>
+    <li><b>Month Year:</b> News item.</li>
+  </ul>
+  -->
 
-		
-	<tr>
-          <!-- ATER  -->
-          <td width="12.5%" style="text-align: center;"><img src="univ_lorraine.png" alt="lorraine_logo" width="120" height="80" valign="center"></td>
-          <td> <span style="color:#1772d0; font-weight:bold"> <a href="https://www.univ-lorraine.fr/" target="_blank">LCOMS Lab</a>
-            </span></td>
-		      
-          <td> ATER </td>
-          <td> <em>(Oct 2022- Aug 2023)</em></td>
-        </tr>
-		
-		<tr>
-			
-	<!-- PhD -->
-  <td width="12.5%" style="text-align: center;">
-    <img src="LCOMS.jpg" alt="LCOMS_logo" width="120" height="80" valign="center">
-  </td>
-  
-  <td>
-    <span style="color:#1772d0; font-weight:bold">
-      <a href="https://lcoms.univ-lorraine.fr/" target="_blank">LCOMS Lab</a>
-    </span><br>
-    <a href="slides_phd.pdf" target="_blank"><strong>Slides</strong></a>
+  <!-- ===== Publications ===== -->
+  <h2>📖 Publication</h2>
 
-  <td>
-    PhD
-  </td>
-  
-  <td>
-    <em>(Oct 2019- Jun 2023)</em><br>
-  </td>
-</tr>
-		
-<tr>
-  <!-- ETIS Lab Internship -->
-  <td width="12.5%" style="text-align: center;">
-    <img src="etis.png" alt="etis_logo" width="120" height="80" valign="center">
-  </td>
-  
-  <td>
-    <span style="color:#1772d0; font-weight:bold">
-      <a href="https://www.etis-lab.fr/neuro/" target="_blank">Neuro Research Team</a>
-    </span><br>
-    <a href="internship_ETIS.pdf" target="_blank"><strong>Internship report</strong></a>
+  <div class="pub">
+    <div class="ph"></div>
+    <div>
+      <div class="title">Multimodal Ambivalence and Hesitancy Recognition via Cross-Attention and Gated Fusion</div>
+      <div class="authors">Oussama Berhili, <b>Yassine Ouzar</b>, Larbi Boubchir</div>
+      <div class="venue">11th ABAW Competition, ECCV 2026</div>
+      <a href="https://arxiv.org/pdf/2607.15779">Paper</a>
+    </div>
+  </div>
 
-  <td>
-    Research Intern
-  </td>
-  
-  <td>
-    <em>(Apr - Sep 2019)</em><br>
-  </td>
-</tr>
+  <div class="pub">
+    <div class="ph"></div>
+    <div>
+      <div class="title">Beyond Ambiguous Visual Cues: Studying Physiological Disruptions and Cross-Modal Inconsistencies in Deepfake Videos</div>
+      <div class="authors">Chenxi Yang, <b>Yassine Ouzar</b>, Larbi Boubchir</div>
+      <div class="venue">arXiv, 2026</div>
+      <a href="https://arxiv.org/pdf/2609.12668">Paper</a>
+    </div>
+  </div>
 
+  <div class="pub">
+    <div class="ph"></div>
+    <div>
+      <div class="title">Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis</div>
+      <div class="authors">Lydia Ouhib, <b>Yassine Ouzar</b>, Zoé Pinseel, Stéphane Bouilland, Mehdi Ammi</div>
+      <div class="venue">arXiv, 2026</div>
+      <a href="https://arxiv.org/pdf/2607.09826">Paper</a>
+    </div>
+  </div>
 
-                <!-- LEOG Lab Internship  -->
-        <tr>
-          <td width="12.5%" style="text-align: center;"><img src="leog.png" alt="leog_logo" width="100" height="100" valign="center"></td>
-          <td> <span style="color:#1772d0; font-weight:bold"> Embedded Systems Team</a>
-            </span><br>
-    <a href="intern_LEOG.pdf" target="_blank"><strong>Internship report</strong></a>
-			  
-          <td> Research Intern </td>
-          <td> <em>(Jan- Jun 2018)</em></td>
-        </tr>
-        </table>
+  <div class="pub">
+    <img src="FG.png" alt="">
+    <div>
+      <div class="title">Peripheral skin temperature differentiates unipolar and bipolar depression</div>
+      <div class="authors"><a href="https://www.aliamad.com/">Ali Amad</a>, <b>Yassine Ouzar</b>, Clémence Nineuil, Fouad Boutaleb, Emery Pierson, Fabien D'Hondt, <a href="https://sites.google.com/view/mohameddaoudi/">Mohamed Daoudi</a></div>
+      <div class="venue">Journal of Affective Disorders, 2025</div>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/40652982/">Paper</a>
+    </div>
+  </div>
 
-	<!-- Research Experience  -->
+  <div class="pub">
+    <img src="elodi.jpg" alt="">
+    <div>
+      <div class="title">Interpretable One-Class Classification Framework for Prescription Error Detection Using BERT Embeddings and Dimensionality Reduction</div>
+      <div class="authors"><b>Yassine Ouzar</b>, Faiza Ajmi, Sarah Ben Othman, Chloé Rousselière, Bertrand Decaudin, Pascal Odou, Slim Hammadi</div>
+      <div class="venue">Computers in Biology and Medicine, 2025</div>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482525011266">Paper</a>
+    </div>
+  </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
-              <p>
-                
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+  <div class="pub">
+    <img src="FG.png" alt="">
+    <div>
+      <div class="title">Wearable-Derived Behavioral and Physiological Biomarkers for Classifying Unipolar and Bipolar Depression Severity</div>
+      <div class="authors"><b>Yassine Ouzar</b>, Clémence Nineuil, Fouad Boutaleb, Emery Pierson, <a href="https://www.aliamad.com/">Ali Amad</a>, <a href="https://sites.google.com/view/mohameddaoudi/">Mohamed Daoudi</a></div>
+      <div class="venue">IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2025</div>
+      <a href="https://hal.science/hal-05038765v1/file/FG2025.pdf">Paper</a>
+    </div>
+  </div>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <!-- <em> <font color="red"><strong> Not a full list. Under dvelopment!</strong></font></em><br> -->
+  <div class="pub">
+    <img src="X-iPPGNet.jpg" alt="">
+    <div>
+      <div class="title">X-iPPGNet: A novel one stage deep learning architecture based on depthwise separable convolutions for video-based pulse rate estimation</div>
+      <div class="authors"><b>Yassine Ouzar</b>, Djameleddine Djeldjli, <a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Choubeila Maaoui</div>
+      <div class="venue">Computers in Biology and Medicine, 2023</div>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0010482523000574">Paper</a>
+    </div>
+  </div>
 
-	<!-- Journal of affective disorders -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'FG'><img src='FG.png' style='width:210px;height:100px;'></div>
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('FG.png').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('FG.png').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle>Peripheral skin temperature differentiates unipolar and bipolar depression</papertitle>
-          <br>
-        <a href="https://www.aliamad.com/" target="_blank">Ali Amad</a>,<strong>Yassine Ouzar</strong>,
-		Clémence Nineuil,
-		Fouad Boutaleb,
-		Emery Pierson,
-		Fabien D'Hondt,
-		and <a href="https://sites.google.com/view/mohameddaoudi/" target="_blank">Mohamed Daoudi</a><br>
-		<em> Journal of affective disorders</em>
-          <br>
-                <a href="https://pubmed.ncbi.nlm.nih.gov/40652982/" target="_blank">link</a>
-            </td>
-		  
+  <div class="pub">
+    <img src="stress-architecture.jpg" alt="">
+    <div>
+      <div class="title">Multimodal stress state detection from facial videos using physiological signals and facial features</div>
+      <div class="authors"><b>Yassine Ouzar</b>, Lynda Lagha, <a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Choubeila Maaoui</div>
+      <div class="venue">ICPR Workshops, 2022</div>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-031-37745-7_10">Paper</a>
+    </div>
+  </div>
 
-          </tr>
-			
-	<!-- E-lodi -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'E-lodi'><img src='elodi.jpg' style='width:210px;height:150px;'></div>
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('elodi.jpg').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('elodi.jpg').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle>Interpretable One-Class Classification Framework for Prescription Error Detection Using BERT Embeddings and Dimensionality Reduction</papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-		Faiza Ajmi,
-		Sarah Ben Othman,
-		Chloé Rousselière,
-		Bertrand Decaudin,
-		Pascal Odou,
-                and Slim Hammadi<br>
-		<em> Computer in Biology and Medecine</em>
-          <br>
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482525011266" target="_blank">link</a>
-		    
-            </td>
-          </tr>
-		
-	<!-- FG -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'FG'><img src='FG.png' style='width:210px;height:100px;'></div>
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('FG.png').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('FG.png').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle>Wearable-Derived Behavioral and Physiological Biomarkers for Classifying Unipolar and Bipolar Depression Severity</papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-		Clémence Nineuil,
-		Fouad Boutaleb,
-		Emery Pierson,
-		<a href="https://www.aliamad.com/" target="_blank">Ali Amad</a>,<br>
-		and <a href="https://sites.google.com/view/mohameddaoudi/" target="_blank">Mohamed Daoudi</a><br>
-		<em> IEEE International Conference on Automatic Face and Gesture Recognition</em>
-          <br>
-                <a href="https://hal.science/hal-05038765v1/file/FG2025.pdf" target="_blank">pdf</a>
-            </td>
-		  
+  <div class="pub">
+    <img src="MER-architecture.jpg" alt="">
+    <div>
+      <div class="title">Video-based multimodal spontaneous emotion recognition using facial expressions and physiological signals</div>
+      <div class="authors"><b>Yassine Ouzar</b>, <a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Djameleddine Djeldjli, Choubeila Maaoui</div>
+      <div class="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2022</div>
+      <a href="https://openaccess.thecvf.com/content/CVPR2022W/ABAW/papers/Ouzar_Video-Based_Multimodal_Spontaneous_Emotion_Recognition_Using_Facial_Expressions_and_Physiological_CVPRW_2022_paper.pdf">Paper</a>
+    </div>
+  </div>
 
-          </tr>
-		
-	<!-- X-iPPGNet -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'X-iPPGNet'><img src='X-iPPGNet.jpg' style='width:210px;height:90px;'></div>
-             <!-- <img src='stress-architecture.jpg' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('X-iPPGNet.jpg').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('X-iPPGNet.jpg').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle>X-iPPGNet: A novel one stage deep learning architecture based on depthwise separable convolutions for video-based pulse rate estimation</papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-		Djameleddine Djeldjli,
-                <a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-                Choubeila Maaoui<br>
-		<em> Computer in Biology and Medecine</em>
-          <br>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0010482523000574" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-		
-	<!-- stress Paper -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'Stress2022'><img src='stress-architecture.jpg' style='width:210px;height:90px;'></div>
-             <!-- <img src='stress-architecture.jpg' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('stress-architecture.jpg').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('stress-architecture.jpg').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle> Multimodal stress state detection from facial videos using physiological signals and facial features</papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-		Lynda Lagha,
-                <a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-                Choubeila Maaoui<br>
-		<em>Proceedings of the IEEE/CVF International Conference on Pattern Recognition Workshop, 2022</em>
-          <br>
-              <a href="https://link.springer.com/chapter/10.1007/978-3-031-37745-7_10" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-		
-	<!-- MER Paper -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'MER2022'><img src='MER-architecture.jpg' style='width:210px;height:90px;'></div>
-             <!-- <img src='MER-architecture.jpg' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('MER-architecture.jpg').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('MER-architecture.jpg').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle> Video-based multimodal spontaneous emotion recognition using facial expressions and physiological signals </papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-                <a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-                Djameleddine Djeldjli,
-		Choubeila Maaoui<br>
-		<em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop, 2022</em>
-          <br>
-              <a href="https://openaccess.thecvf.com/content/CVPR2022W/ABAW/papers/Ouzar_Video-Based_Multimodal_Spontaneous_Emotion_Recognition_Using_Facial_Expressions_and_Physiological_CVPRW_2022_paper.pdf" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-	
-	  <!-- V4V Paper -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'v4v'><img src='v4v.JPG' style='width:210px;height:90px;'></div>
-              <!--<img src='v4v.JPG' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('v4v.JPG').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('v4v.JPG').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle> LCOMS Lab's Approach to the Vision for Vitals (V4V) Challenge </papertitle>
-          <br>
-                <strong>Yassine Ouzar</strong>,
-                <a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-                Djameleddine Djeldjli,
-		Choubeila Maaoui<br>
-		<em>Proceedings of the IEEE/CVF International Conference on Computer Vision Workshop, 2021</em>
-          <br>
-              <a href="https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Ouzar_LCOMS_Labs_Approach_to_the_Vision_for_Vitals_V4V_Challenge_ICCVW_2021_paper.pdf" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-		
-	  <!-- iPPG2BP Paper -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'iPPG2BP'><img src='iPPG2BP.JPG' style='width:210px;height:90px;'></div>
-              <!--<img src='iPPG2BP.JPG' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('iPPG2BP.JPG').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('iPPG2BP.JPG').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle> Estimation of blood pressure waveform from facial video using a deep U-shaped network and the wavelet representation of imaging photoplethysmographic signals </papertitle>
-          <br>
-                
-		<a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-                Théo Desquins,
-		Djameleddine Djeldjli,
-		<strong>Yassine Ouzar</strong>,
-		Choubeila Maaoui,
-		 Alain Pruski<br>
-		<em>Biomedical Signal Processing and Control (BSPC 2021)</em>
+  <div class="pub">
+    <img src="v4v.JPG" alt="">
+    <div>
+      <div class="title">LCOMS Lab's Approach to the Vision for Vitals (V4V) Challenge</div>
+      <div class="authors"><b>Yassine Ouzar</b>, <a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Djameleddine Djeldjli, Choubeila Maaoui</div>
+      <div class="venue">IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), 2021</div>
+      <a href="https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Ouzar_LCOMS_Labs_Approach_to_the_Vision_for_Vitals_V4V_Challenge_ICCVW_2021_paper.pdf">Paper</a>
+    </div>
+  </div>
 
-           <br>
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809422004050" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-		      
-	<!-- iPPG2cPPG Paper -->
-          <tr onmouseout="style_stop()" onmouseover="style_start()" >
-            <td width="25%">
-              <div class="one">
-              <div class="two" id = 'iPPG2cPPG'><img src='iPPG2cPPG.JPG' style='width:210px;height:90px;'></div>
-              <!--<img src='iPPG2cPPG.JPG' style='width:128px;height:108px;'>-->
-              </div>
-              <script type="text/javascript">
-              function style_start() {
-              document.getElementById('iPPG2cPPG.JPG').style.opacity = "1";
-              }
-              function style_stop() {
-              document.getElementById('iPPG2cPPG.JPG').style.opacity = "0";
-              }
-              style_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-                  <papertitle> iPPG 2 cPPG: reconstructing contact from imaging photoplethysmographic signals using U-Net architectures </papertitle>
-          <br>
-                
-		<a href="https://sites.google.com/view/frederic-bousefsaf" target="_blank">Frédéric Bousefsaf</a>,
-		Djameleddine Djeldjli,
-		<strong>Yassine Ouzar</strong>,
-		Choubeila Maaoui,
-		 Alain Pruski<br>
-		<em> Computers in Biology and Medicine (CBM 2022)</em>
+  <div class="pub">
+    <img src="iPPG2BP.JPG" alt="">
+    <div>
+      <div class="title">Estimation of blood pressure waveform from facial video using a deep U-shaped network and the wavelet representation of imaging photoplethysmographic signals</div>
+      <div class="authors"><a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Théo Desquins, Djameleddine Djeldjli, <b>Yassine Ouzar</b>, Choubeila Maaoui, Alain Pruski</div>
+      <div class="venue">Biomedical Signal Processing and Control (BSPC), 2021</div>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809422004050">Paper</a>
+    </div>
+  </div>
 
-           <br>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0010482521006545" target="_blank">pdf</a>
- 
-            </td>
-          </tr>
-		      
-	<!-- Teaching Experience  -->
+  <div class="pub">
+    <img src="iPPG2cPPG.JPG" alt="">
+    <div>
+      <div class="title">iPPG 2 cPPG: reconstructing contact from imaging photoplethysmographic signals using U-Net architectures</div>
+      <div class="authors"><a href="https://sites.google.com/view/frederic-bousefsaf">Frédéric Bousefsaf</a>, Djameleddine Djeldjli, <b>Yassine Ouzar</b>, Choubeila Maaoui, Alain Pruski</div>
+      <div class="venue">Computers in Biology and Medicine, 2022</div>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0010482521006545">Paper</a>
+    </div>
+  </div>
 
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tr>
-              <td>
-              <heading>Teaching Experience</heading>
-              </td>
-            </tr>
-            </table>
-            <table width="100%" align="center" border="0" cellpadding="20">
-            <tr>
-              <td width="75%" valign="center">
-              <p>
-                M2 MIAS Centrale Lille : Explainable AI <br>
-                <br>
-		M2 MIAS Centrale Lille : Uncertainty Management <br>
-                <br>
-		M2 E3A UFR SciFA - Metz : Internet of Things <br>
-                <br>
-		M1 E3A UFR SciFA - Metz : Machine Learning <br>
-                <br>
-                M1 E3A UFR SciFA - Metz : Oriented Object Programming <br>
-                <br>
-		M1 E3A UFR SciFA - Metz : Web Developement <br>
-                <br>
-		M1 E3A UFR SciFA - Metz : Computer Network <br>
-                <br>
-                M1 E3A UFR SciFA - Metz : UNIX <br>
-                <br>
-		L3 E3A UFR SciFA - Metz : Graphical User Interface <br>
-                <br>
-                L1 SPI UFR SciFA - Metz : Digital Electronics <br>
-                <br>
-		L1 SPI UFR SciFA - Metz : Algorithms and Programming <br>
-                <br>      
-              </p>
-              </td>
-            </tr>
-            </table>
-		
-        </table>
-        </body>
-      </html>
+  <!-- ===== Work experience ===== -->
+  <h2>💼 Work Experience</h2>
+
+  <div class="exp">
+    <img src="paris8.jpg" alt="Paris 8">
+    <div class="what"><div class="title">Associate Professor</div><div class="where"><a href="https://www.univ-paris8.fr/">Paris 8 University</a></div></div>
+    <div class="when">Sept 2025 – Present</div>
+  </div>
+  <div class="exp">
+    <img src="LNC.png" alt="LilNCog">
+    <div class="what"><div class="title">Postdoctoral Researcher</div><div class="where"><a href="https://lilncog.eu/">Lille Neurosciences &amp; Cognition (LilNCog)</a></div></div>
+    <div class="when">Oct 2024 – Present</div>
+  </div>
+  <div class="exp">
+    <img src="cristal.png" alt="CRIStAL">
+    <div class="what"><div class="title">Postdoctoral Researcher</div><div class="where"><a href="https://www.cristal.univ-lille.fr/">CRIStAL Lab</a></div></div>
+    <div class="when">Sept 2023 – Sept 2024</div>
+  </div>
+  <div class="exp">
+    <img src="univ_lorraine.png" alt="University of Lorraine">
+    <div class="what"><div class="title">ATER</div><div class="where"><a href="https://www.univ-lorraine.fr/">LCOMS Lab</a></div></div>
+    <div class="when">Oct 2022 – Aug 2023</div>
+  </div>
+  <div class="exp">
+    <img src="LCOMS.jpg" alt="LCOMS">
+    <div class="what"><div class="title">PhD</div><div class="where"><a href="https://lcoms.univ-lorraine.fr/">LCOMS Lab</a> · <a href="slides_phd.pdf">Slides</a></div></div>
+    <div class="when">Oct 2019 – Jun 2023</div>
+  </div>
+  <div class="exp">
+    <img src="etis.png" alt="ETIS">
+    <div class="what"><div class="title">Research Intern</div><div class="where"><a href="https://www.etis-lab.fr/neuro/">Neuro Research Team</a> · <a href="internship_ETIS.pdf">Internship report</a></div></div>
+    <div class="when">Apr – Sep 2019</div>
+  </div>
+  <div class="exp">
+    <img src="leog.png" alt="LEOG">
+    <div class="what"><div class="title">Research Intern</div><div class="where">Embedded Systems Team · <a href="intern_LEOG.pdf">Internship report</a></div></div>
+    <div class="when">Jan – Jun 2018</div>
+  </div>
+
+  <!-- ===== Teaching ===== -->
+  <h2>🧑‍🏫 Teaching Experience</h2>
+  <ul class="teach">
+    <li>M1 Computer Science and Data Engineering: Fusion of Heterogeneous Information <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Cybersecurity and Data Science: UNIX and Advanced Programming <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Cybersecurity and Data Science: Open-Source Tools for Software Development <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Cybersecurity and Data Science: Smart Card Programming <span class="yr">(2025 – Present)</span></li>
+    <li>M2 Artificial Intelligence Engineering: Optimization and Advanced Techniques for Machine Learning <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Artificial Intelligence Engineering: Biometric Recognition and Security <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Artificial Intelligence Engineering: Machine Learning Algorithms <span class="yr">(2025 – Present)</span></li>
+    <li>M1 Artificial Intelligence Engineering: Doctoral Springboard <span class="yr">(2025 – Present)</span></li>
+    <li>M2 Big Data: Indexing of Massive Data <span class="yr">(2025 – Present)</span></li>
+    <li>L3 Embedded Systems Computing: Python Programming <span class="yr">(2025 – Present)</span></li>
+    <li>M2 MIAS Centrale Lille: Explainable AI <span class="yr">(2023 – 2025)</span></li>
+    <li>M2 MIAS Centrale Lille: Uncertainty Management <span class="yr">(2023 – 2025)</span></li>
+    <li>M2 E3A UFR SciFA – Metz: Internet of Things <span class="yr">(2020 – 2023)</span></li>
+    <li>M1 E3A UFR SciFA – Metz: Machine Learning <span class="yr">(2020 – 2023)</span></li>
+    <li>M1 E3A UFR SciFA – Metz: Object-Oriented Programming <span class="yr">(2020 – 2023)</span></li>
+    <li>M1 E3A UFR SciFA – Metz: Web Development <span class="yr">(2020 – 2023)</span></li>
+    <li>M1 E3A UFR SciFA – Metz: Computer Networks <span class="yr">(2020 – 2023)</span></li>
+    <li>M1 E3A UFR SciFA – Metz: UNIX <span class="yr">(2020 – 2023)</span></li>
+    <li>L3 E3A UFR SciFA – Metz: Graphical User Interface <span class="yr">(2020 – 2023)</span></li>
+    <li>L1 SPI UFR SciFA – Metz: Digital Electronics <span class="yr">(2020 – 2023)</span></li>
+    <li>L1 SPI UFR SciFA – Metz: Algorithms and Programming <span class="yr">(2020 – 2023)</span></li>
+  </ul>
+
+  <footer>© Yassine Ouzar</footer>
+</div>
+</body>
+</html>
